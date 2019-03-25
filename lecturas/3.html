@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
 	    <meta charset="UTF-8">
-	    <title>Met Burbuja</title>
+	    <title>Metodo Burbuja</title>
 	    <meta name="description" content="">
 	    <meta name="viewport" contet="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-sacale=1.0"/>
 	    <script src="prefix.js"></script>
@@ -55,15 +55,18 @@
          list-style:none;
         }
         
-        .nav > li {
-         display:table-cell;
+         .nav > li {
+        display:table-cell;
+        font-size: 20px;
+         
         }
 
     .nav li a {
     background-color:rgb(64, 52, 189);
     color:#fff;
+    margin: 16px 5% -15px -0px;
     text-decoration:none;
-    padding:10px 12px;
+    padding: 5px 15px 5px 10px;
 	display:block;
    }
    .nav li a:hover {
@@ -91,6 +94,18 @@
 
 
 <body>
+    <div class="sticky-container">
+    <ul class="sticky">
+        <li>
+            <img src="../img/facebook-circle.png" width="32" height="32">
+            <p><a href="https://www.facebook.com/programacionnet" target="_blank">Like Us on<br>Facebook</a></p>
+        </li>
+        <li>
+            <img src="../img/twitter-circle.png" width="32" height="32">
+            <p><a href="https://twitter.com/noprog" target="_blank">Follow Us on<br>Twitter</a></p>
+        </li>
+    </ul>
+</div>
 		<div class="contenedor">
 				<header>
 			<div class="logo">
@@ -156,13 +171,68 @@ Veamos un ejemplo de su implementación.<br><br>
                                 
                                 </div>
 
-Ejemplo: Aquí hay un paso del algoritmo. El elemento más grande “8” está borboteando en la parte superior:<br><br>
-
-                                <div class="img">
-                                <img src="../img/metodob2.png">
+Ejemplo: Aquí hay un paso del algoritmo. El elemento más grande “8” está borboteando en la parte superior:<br>
                                 
                                 </div>
-                                <br>
+                               
+                                
+ <table  bgcolor= "FFFFFF" width="40%"  border="0" cellspacing="0" cellpadding="0" style="font-size:190%">
+
+
+<tr>
+ <td style="color:#ff0000">8,</td>
+ <td style="color:#ff0000">5,</td>
+  <td>2,</td>
+  <td>4,</td>
+  <td>3,</td>
+  <td>9</td>
+</tr>
+
+<tr>
+  <td>5,</td>
+  <td style="color:#ff0000">8,</td>
+  <td style="color:#ff0000">2,</td>
+  <td>4,</td>
+  <td>3,</td>
+  <td>9</td>
+</tr>
+
+<tr>
+  <td>5,</td>
+  <td>2,</td>
+  <td style="color:#ff0000">8,</td>
+  <td style="color:#ff0000">4,</td>
+  <td>3,</td>
+  <td>9</td>
+</tr>
+     
+<tr>
+  <td>5,</td>
+  <td>2,</td>
+  <td>4,</td>
+  <td style="color:#ff0000">8,</td>
+  <td style="color:#ff0000">3,</td>
+  <td>9</td>
+</tr>
+     
+<tr>
+  <td>5,</td>
+  <td>2,</td>
+  <td>4,</td>
+  <td>3,</td>
+  <td style="color:#ff0000">8,</td>
+  <td style="color:#ff0000">9</td>
+</tr>
+
+<tr>
+  <td>5,</td>
+  <td>2,</td>
+  <td>4,</td>
+  <td>3,</td>
+  <td>8,</td>
+  <td>9</td>
+</tr>
+</table>
                                 <p>
 
 El algoritmo de la burbuja, para ordenar un vector de n términos, tiene que realizar siempre el mismo número de comparaciones, esto quiere decir que el número de comparaciones no depende del orden de los términos, si no del número de términos.
