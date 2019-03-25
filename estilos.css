@@ -1,3 +1,9 @@
+<style type="text/css" media="screen">
+#sidebar,#menu{display:none;}
+#page{width:99%;}
+#content{width:99%;}
+</style>
+
 * {
 	margin: 0;
 	padding: 0;
