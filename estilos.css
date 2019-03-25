@@ -19,7 +19,7 @@
  
 body {
 	
-	background-image:url(img/fondo1.png);
+	background-image:url(img/fondo0.png);
     height: 100;
     
         
@@ -81,7 +81,7 @@ header nav a:hover {
 }
  
 .main {
-    /*es donde esta todo el texto de vivelab*/
+    /*es donde esta todo el texto del ovi*/
 	padding:20px;
     flex:1;
    /*flex:1 1 70%;*/ 
